@@ -5,6 +5,7 @@ services:
     build: ./app
     container_name: api_mock.app
     command: uvicorn main:app --reload --host 0.0.0.0
+    working_dir: /app
     environment:
       - TZ=Asia/Tokyo
       - PYTHONPATH=/app:/db
