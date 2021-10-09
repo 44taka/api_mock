@@ -1,0 +1,7 @@
+fastapi
+starlette-context
+aiohttp
+gunicorn
+uvloop
+uvicorn
+httptools
