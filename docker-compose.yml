@@ -8,7 +8,7 @@ services:
     working_dir: /app
     environment:
       - TZ=Asia/Tokyo
-      - PYTHONPATH=/app:/db
+      - PYTHONPATH=/app
     ports:
       - 8000:8000
     volumes:
