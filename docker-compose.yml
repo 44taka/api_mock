@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app:
     build: ./app
-    container_name: api_mock.app
+    container_name: api_stub.app
     command: uvicorn main:app --reload --host 0.0.0.0
     working_dir: /app
     environment:
